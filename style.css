@@ -1,0 +1,335 @@
+body {
+    background-color: white solid   ;
+    max-width: 1920px;
+    height: 1080px;
+    align-items: center;
+}
+
+/*fomateo de doc*/
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: none;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+
+#main {
+    max-width: 100%;
+    background-color: white;
+    
+}
+
+
+.img_logo {
+    width: 200px;
+    height: 90px;
+    
+}
+
+#footer {
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+}
+
+.footer_logo img {
+    width: 200px;
+    height: 90px;
+    margin: 2% 10%;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px black solid;
+    padding: 1px 5% 1px 5%;
+    font-weight: bold;
+
+}
+
+
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.navBarmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    border: 2px black solid; 
+    padding: 1px 5% 1px 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2% 10%;
+    animation-fill-mode: forwards;
+    
+}
+ 
+.bannerIMG {
+    width: 145%;
+    height: 60vh;
+    
+}
+
+
+
+
+#Imagenes .img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#Imagenes {
+    padding-top: 100px;
+    align-items: center;
+    height: 100vh;
+    width: 80px;
+    margin: 0px auto;
+    display: grid;
+    column-gap: 50%;
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    
+    ""
+
+            /*COL 1  COL 2  COL 3  COL 4  COL 5*/
+    /*fila1*/"img1 img2 img2 img1 img3"
+    /*fila2*/"calco2 calco2  empty  calco3 calco3"
+    /*fila3*/"calco3 calco2 calco1 calco3 calco3"
+    ;
+
+}
+
+
+
+
+/*/////////////////////////////////////*/
+
+
+
+#maincontacto {
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 50px;
+    margin-top: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+}
+
+.contacto-contacto_map {
+    display: flex;
+    align-items: center;
+    width: 110%;
+    height: 50%;
+    border: 0px black solid; 
+    padding: 2px 5% 2px 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2% 10%;
+    animation-fill-mode: forwards;
+
+}
+
+.Contacto-contacto_2 {
+   
+    align-items: center;
+    width: 0%;
+    column-gap: 50%;
+    margin: auto;
+}
+
+.contacto-contacto_1 {
+    align-items: center;
+    width: 0%;
+    column-gap: 50%;
+    margin: auto;
+}
+
+.footer_linkscontacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px black solid;
+    padding: 1px 5% 1px 5%;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+
+#footercontacto {
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+
+}
+
+@media screen and (max-width: 770px)
+{
+    
+}
+
+
+#mainProducto {
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 50px;
+    margin-top: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+}
+
+.caja1 {
+    padding: auto;
+    max-width: 100%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+.footer_links1  {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px black solid;
+    padding: 1px 5% 1px 5%;
+    font-weight: bold;
+    align-items: center;
+}
+
+#footer_producto {
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+}
+
+#maincomocomprar {
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-top: auto;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+.Compraa {
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-top: auto;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#Maincatalogo {
+
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-top: auto;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+
+
+#footerlinks_catalogo {
+    width: 1920px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+    
+
+}
+
+.cat1 {
+    align-items: center;
+    justify-content: space-around;
+    padding: auto;
+    margin-top: auto;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer_linkscatalogo {
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+border: 2px black solid;
+padding: 1px 5% 1px 5%;
+font-weight: bold;
+align-items: center;
+}
